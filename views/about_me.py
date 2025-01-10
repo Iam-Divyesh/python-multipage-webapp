@@ -1,11 +1,11 @@
 import streamlit as st
 
-from forms.contact import contact_form
+# from forms.contact import contact_form
 
 
-@st.experimental_dialog("Contact Me")
-def show_contact_form():
-    contact_form()
+# @st.experimental_dialog("Contact Me")
+# def show_contact_form():
+#     contact_form()
 
 
 # --- HERO SECTION ---
@@ -19,10 +19,9 @@ with col2:
         "Senior Data Analyst, assisting enterprises by supporting data-driven decision-making."
     )
     if st.button("✉️ Contact Me"):
-        show_contact_form()
+        # show_contact_form()
 
-
-# --- EXPERIENCE & QUALIFICATIONS ---
+        # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
 st.write(
